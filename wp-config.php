@@ -83,12 +83,22 @@ $table_prefix = 'wp_';
 define('WP_DEBUG', false);
 
 /* Add any custom values between this line and the "stop editing" line. */
+<<<<<<< HEAD
 define('FS_METHOD', 'direct' );
+=======
+
+
+define('FS_METHOD', 'direct');
+>>>>>>> f0e1cfe9fd3cadfe3867f025d39051cb3de87136
 define('FTP_BASE', '/home/docker-test-2/projects/hksis.net-wordpress/');
 define('FTP_USER', 'hksis');
 define('FTP_PASS', 'HeKaSistem@');
 define('FTP_HOST', 'hksis.net');
 define('FTP_SSL', false);
+<<<<<<< HEAD
+=======
+
+>>>>>>> f0e1cfe9fd3cadfe3867f025d39051cb3de87136
 
 /* That's all, stop editing! Happy publishing. */
 
@@ -96,6 +106,8 @@ define('FTP_SSL', false);
 if (!defined('ABSPATH')) {
 	define('ABSPATH', __DIR__ . '/');
 }
+
+
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
