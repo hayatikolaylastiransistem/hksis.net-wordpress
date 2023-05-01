@@ -83,8 +83,12 @@ $table_prefix = 'wp_';
 define('WP_DEBUG', false);
 
 /* Add any custom values between this line and the "stop editing" line. */
-
-
+define('FS_METHOD', 'direct' );
+define('FTP_BASE', '/home/docker-test-2/projects/hksis.net-wordpress/');
+define('FTP_USER', 'hksis');
+define('FTP_PASS', 'HeKaSistem@');
+define('FTP_HOST', 'hksis.net');
+define('FTP_SSL', false);
 
 /* That's all, stop editing! Happy publishing. */
 
